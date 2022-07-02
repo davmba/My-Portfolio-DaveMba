@@ -1,0 +1,129 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: var(--bg-color);
+}
+
+:root {
+  --bg-color: #1c1a19;
+  --nav-bg-color: #3c3a39;
+  --primary-color: #fff;
+  --secondary-color: #ff6b00;
+  --font-size: normal;
+}
+
+/* NAV SECTION */
+
+a {
+  text-decoration: none;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 4rem;
+  padding: 1em 2em;
+  background-color: var(--nav-bg-color);
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+}
+
+.flex {
+  display: flex;
+}
+
+.hamburger-menu {
+  border: none;
+  flex-direction: column;
+  gap: 4px;
+  height: 20px;
+  width: 20px;
+}
+
+.hamburger-menu .ham {
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.767);
+  width: 15px;
+}
+
+.logo {
+  font-family: "Roboto", sans-serif;
+  font-style: var(--font-size);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--primary-color);
+}
+
+/* MAIN SECTION */
+
+.headline {
+  background: var(--bg-color);
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5em 2em;
+  position: relative;
+  overflow: hidden;
+}
+
+.illustration-icon {
+  background: url("images/illustration.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  right: -62%;
+  bottom: -4%;
+}
+
+.primary-text {
+  width: 327px;
+  height: 124px;
+  font-style: var(--font-size);
+  font-weight: 400;
+  font-size: 56px;
+  font-family: "Crete Round", sans-serif;
+  color: var(--secondary-color);
+}
+
+.supporting-text {
+  width: 327px;
+  font-family: "Roboto", sans-serif;
+  font-style: var(--font-size);
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
+  margin-bottom: 0.6rem;
+  margin-top: 1rem;
+}
+
+.headline p {
+  width: 327px;
+  font-family: "Poppins", sans-serif;
+  font-style: var(--font-size);
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--primary-color);
+}
+
+.button-icons {
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.centered-content {
+  align-items: center;
+}
