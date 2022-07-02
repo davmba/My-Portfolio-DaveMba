@@ -24,6 +24,11 @@ button {
   padding: 7px 12px;
 }
 
+
+ul li {
+  list-style-type: none;
+}
+
 .buttons li {
   font-family: "Inter", sans-serif;
   border: 1px solid #8993a4;
@@ -40,10 +45,6 @@ button {
   --primary-color: #fff;
   --secondary-color: #ff6b00;
   --font-size: normal;
-}
-
-ul li {
-  list-style-type: none;
 }
 
 /* NAV SECTION */
