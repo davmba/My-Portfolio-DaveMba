@@ -48,7 +48,19 @@ a {
   margin-right: 10px;
   display: block;
   border: none;
-  background: white;
+  background: linear-gradient(
+    to bottom,
+    #acb7c3,
+    #acb7c3 20%,
+    #3c3a39 20%,
+    #3c3a39 40%,
+    #acb7c3 40%,
+    #acb7c3 60%,
+    #3c3a39 60%,
+    #3c3a39 80%,
+    #acb7c3 80%,
+    #acb7c3 100%
+  );
 }
 
 .hamburger-menu .nav-menu {
