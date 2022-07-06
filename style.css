@@ -352,7 +352,7 @@ footer {
   font-family: "Inter", sans-serif;
 }
 
-.footer-text{
+.footer-text {
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -365,7 +365,6 @@ footer {
   font-size: 32px;
   line-height: 44px;
   font-weight: 700;
-  
   font-style: normal;
   color: #172b4d;
   text-align: center;
@@ -391,10 +390,10 @@ input {
   color: #3c3a39; 
   padding: 12px;
 }
+
 input:hover {
   outline: 0;
   border: solid 2px rgb(7, 181, 224);
-
 }
 
 textarea {
@@ -411,7 +410,7 @@ textarea {
 }
 
 textarea:hover {
-  border: solid 2px rgb(7, 181, 224)
+  border: solid 2px rgb(7, 181, 224);
 }
 
 .form-hr {
