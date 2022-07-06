@@ -437,7 +437,7 @@ textarea:hover {
   border: 1px solid #f55800;
 }
 
-.form-btn:pressed {
+.form-btn:visited {
   background-color: #e05304;
   color: #f4f1f0;
 }
@@ -445,11 +445,7 @@ textarea:hover {
 .form-btn:disabled {
   background-color: #f4f1f0;
   color: #5b5957;
-
 }
-
-.form-btn
-
 
 .bottom-nav {
   flex-direction: column;
