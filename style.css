@@ -384,11 +384,11 @@ input {
   border-width: 0 0 1px;
   border-color: #dbd8d7;
   font-size: 15px;
-  line-height: 24px;
+  line-height: 24.1px;
   font-weight: 400;
   font-style: normal;
   color: #3c3a39;
-  padding: 12px;
+  padding: 12px; 
 }
 
 input:hover {
