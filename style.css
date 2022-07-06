@@ -132,7 +132,7 @@ a {
   width: 327px;
   font-family: "Roboto", sans-serif;
   font-style: var(--font-size);
-  font-size: 24px;
+  font-size: 24.5px;
   line-height: 32px;
   color: #fff5e1;
   margin-bottom: 0.6rem;
@@ -387,7 +387,7 @@ input {
   line-height: 24px;
   font-weight: 400;
   font-style: normal;
-  color: #3c3a39; 
+  color: #3c3a39;
   padding: 12px;
 }
 
