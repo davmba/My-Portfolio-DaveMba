@@ -243,6 +243,10 @@ a {
   border: none;
 }
 
+.work-section-2 {
+  al
+}
+
 .about-me {
   background-color: var(--bg-color);
   padding: 1em;
@@ -455,4 +459,24 @@ textarea:hover {
 .footer-icons {
   display: block;
   margin: 0 auto 10px;
+}
+
+
+/* Desktop View */
+@media (min-width: 768px) {
+  .lg-flex-row {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  
+  .lg-grid-row {
+    display: flex;
+    gap: 2rem;
+    align-items: ;
+    
+  }
+  
+  
+
 }
