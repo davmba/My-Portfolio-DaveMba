@@ -208,12 +208,14 @@ a {
 
 .card-content {
   width: 100%;
+  padding: 12px
 }
-
+.work-black {
+  top: 0;
+}
 .card-content p {
   margin-block: 12px;
   font-family: "Inter", sans-serif;
-  color: #ffffff;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -223,21 +225,22 @@ a {
 .card-content h3 {
   font-family: "Crete Round", sans-serif;
   font-style: normal;
-  color: #ffffff;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  margin-top: 148px;
+  margin-top: 55px;
 }
 
 .buttons {
   gap: 1rem;
   align-items: center;
-  color: ;
 }
 .buttons .width100 {
   color: #ffffff;
+}
 
+.stack-buttons {
+  color: #ffffff;
 }
 
 .special {
@@ -254,14 +257,17 @@ a {
 
 .width100 {
   width: 100%;
+  padding: 10px 12;
 }
 
 .grid-con {
   width: 327px;
   height: 386px;
   margin-top: 24px;
+  color: #ffffff;
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(images/grid11.png);
 }
+
 
 /* About Me */
 .about-me {
