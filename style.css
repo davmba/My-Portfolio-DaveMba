@@ -28,6 +28,8 @@ ul li {
   list-style-type: none;
 }
 
+
+
 .buttons li {
   font-family: "Inter", sans-serif;
   border: 1px solid #8993a4;
@@ -179,8 +181,8 @@ a {
   width: 100%;
   border: 1px solid #212121;
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 0%;
+    left: 0%;
 }
 
 /* Work section */
@@ -202,7 +204,6 @@ a {
 }
 
 .card-con img {
-  width: 100%;
   height: 240px;
 }
 
@@ -210,9 +211,10 @@ a {
   width: 100%;
   padding: 12px
 }
-.work-black {
-  top: 0;
+.card-content-black {
+  margin-top: 55px;
 }
+
 .card-content p {
   margin-block: 12px;
   font-family: "Inter", sans-serif;
@@ -228,7 +230,7 @@ a {
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  margin-top: 55px;
+  
 }
 
 .buttons {
@@ -237,6 +239,7 @@ a {
 }
 .buttons .width100 {
   color: #ffffff;
+  bottom: 0
 }
 
 .stack-buttons {
@@ -485,50 +488,175 @@ textarea:hover {
   margin: 0 auto 10px;
 }
 
+/* Mobile View */
+@media (max-width: 768px) {
+  .desktop-display {
+    visibility: hidden;
+    height: 0px;
+  }
+
+}
+
 
 /* Desktop View */
 @media (min-width: 768px) {
-  .lg-flex-row {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
+  /* Work section */
+  .mobile-display {
+    visibility: hidden;
+    height: 0px;
   }
-  
-  .lg-grid-row {
+
+  .cards {
     display: flex;
+    justify-content: center;
     gap: 2rem;
+
   }
-  
-  .grid-con {
+
+  .grid11 {
     width: 369px;
     height: 435px;
   }
 
+  .card-content-black {
+    margin-top: 130px;
+  }
+
   .grid-con h3 {
-    font-size: ;
+    font-size: 32px;
   }
   .grid-con p {
-    font-size: ;
+    font-size: 17px;
+  }
+  
+}
+
+@media(min-width:750px){
+  .card-con {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    gap: 2rem;
   }
 
-  .grid11 {
-    background-image: url("images/grid11.png");
+  .container{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1300px;
+  }
+
+  .card-content p {
+    max-width: 450px;
+  }
+
+  .card-con img {
+    height: 350px;
+  }
+
+  .portfolio {
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    margin-block: 132px;
+    justify-content: space-between;
+  }
+
+  .footer_wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .illustration {
+    position: relative;
+    background-image: url("images/illustration-about\ me@2x.png");
     background-repeat: no-repeat;
     background-size: contain;
+    right: 0rem;
+    width: 300px;
+    height: 300px;
+    bottom: 0%;
   }
 
-  .grid22,
-.grid55 {
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(images/grid22.png);;
-  background-repeat: no-repeat;
-  background-size: contain;
+  .subtitle h2 {
+    font-size: 40px;
+    line-height: 52px;
+    width: 100%;
+    height: 83px;
+    margin: 120px 24px 104px 24px;
+    position: relative;
+  }
+
+  .subtitle h2::after {
+    content: "";
+    width: 70%;
+    border: 1px solid #212121;
+    position: absolute;
+    bottom: 60%;
+      left: 30%;
+  }
+
+    .footer-text {
+      width: 100%;
+      justify-content:center;
+      align-items: flex-start; 
+      margin-top: 40px;
+      flex: 1;
+  }
+
+  .about-me-content{
+    flex: 1;
+  }
+
+  .illustration{
+    flex: 1;
+  }
+
+  .footer-items{
+    flex: 1;
+  }
+
+  .footer-title {
+    width: 100%;
+    height: 100%;
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 700;
+    font-style: normal;
+    color: #172b4d;
+    max-width: 500px;
+    text-align: center;
 }
 
-.grid33, 
-.grid66 {
-  background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(images/grid33.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-  
+  .grid-con:nth-child(1) {
+  width: 327px;
+  height: 386px;
+  margin-top: 24px;
+  color: #ffffff;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(images/grid11.png);
+  }
+
+  .grid-con:nth-child(2) {
+    width: 327px;
+    height: 386px;
+    margin-top: 24px;
+    color: #ffffff;
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(images/grid22.png);
+  }
+
+  .grid-con:nth-child(3) {
+    width: 327px;
+    height: 386px;
+    margin-top: 24px;
+    color: #ffffff;
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(images/grid33.png);
+  }
 }
