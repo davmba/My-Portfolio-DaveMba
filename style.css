@@ -9,7 +9,7 @@ html {
 }
 
 .body {
-  color: #ffff;
+  color: #fff;
   font-family: 'Crete Round', serif;
 }
 
@@ -51,7 +51,7 @@ img {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  color: #ffffff;
+  color: #fff;
 }
 .header {
   width: 100%;
@@ -68,9 +68,6 @@ img {
   align-items: center;
   gap: 2.5rem;
 }
-.header .nav ul a {
-  color: #ffffff;
-}
 
 /* Hero */
 .hero {
@@ -85,7 +82,6 @@ img {
 }
 
 .hero .left i {
-  color: #fff;
   font-size: 1.5rem;
   margin: 0.25rem 0;
 }
@@ -112,7 +108,6 @@ img {
   font-weight: 500;
   font-size: 32px;
   line-height: 34px;
-  color: #ffffff;
   margin-bottom: 0.65rem;
 }
 
@@ -219,7 +214,6 @@ img {
   padding: 10px 12px;
 
   height: 40px;
-  background: #ffffff;
   border: 1px solid #8993a4;
 }
 
@@ -234,7 +228,6 @@ img {
   width: 124px;
   height: 48px;
   background: #f55800;
-  color: #fff;
 }
 
 .btn:hover {
@@ -282,7 +275,7 @@ img {
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .proj p {
@@ -290,7 +283,6 @@ img {
   font-weight: 400;
   font-size: 17px;
   line-height: 24px;
-  color: #ffffff;
 }
 
 .proj .buttons {
@@ -302,7 +294,6 @@ img {
   background: rgba(255, 255, 255, 0.24);
   padding: 0.65rem;
   margin: 0 0.7rem;
-  color: #fff;
   margin-bottom: 4rem;
 }
 
@@ -377,7 +368,6 @@ img {
 
 .about {
   background: #262626;
-  color: #fff;
   padding: 2rem;
   margin-top: 4rem;
 }
@@ -433,7 +423,6 @@ img {
   font-size: 22px;
   line-height: 43px;
   margin-block: 44px;
-  color: #ffffff;
 }
 
 .skill-caption {
@@ -652,7 +641,6 @@ img {
 
   .about {
     background: #262626;
-    color: #fff;
     padding: 4rem 1rem;
     margin-top: 4rem;
   }
