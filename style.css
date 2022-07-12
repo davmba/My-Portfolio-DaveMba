@@ -11,7 +11,6 @@ html {
 .body {
   color: #ffff;
   font-family: 'Crete Round', serif;
-
 }
 
 a {
@@ -153,6 +152,7 @@ img {
   color: #091e42;
   position: relative;
 }
+
 .recent h1::before {
   position: absolute;
   content: "";
