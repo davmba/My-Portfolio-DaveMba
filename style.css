@@ -245,7 +245,7 @@ img {
   content: "";
   height: 100%;
   width: 100%;
-  background: linear-gradient( 179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%);
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%);
 }
 
 .proj:nth-child(2) {
