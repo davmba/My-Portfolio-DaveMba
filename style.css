@@ -245,24 +245,19 @@ img {
   content: "";
   height: 100%;
   width: 100%;
-  background: 
-  linear-gradient(
-    179.35deg,
-    rgba(38, 38, 38, 0) 0.85%,
-    rgba(38, 38, 38, 0.9) 84%
-  );
+  background: linear-gradient( 179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%);
 }
 
 .proj:nth-child(2) {
-  background: url("images/proj2.png") no-repeat center center/cover;
+  background: url("images/proj2.png") no-repeat center center / cover;
 }
 
 .proj:nth-child(3) {
-  background: url("images/proj3.png") no-repeat center center/cover;
+  background: url("images/proj3.png") no-repeat center center / cover;
 }
 
 .proj:nth-child(4) {
-  background: url("images/proj.png") no-repeat center center/cover;
+  background: url("images/proj.png") no-repeat center center / cover;
 }
 
 .proj:nth-child(5) {
@@ -270,7 +265,7 @@ img {
 }
 
 .proj:nth-child(6) {
-  background: url("images/proj3.png") no-repeat center center/cover;
+  background: url("images/proj3.png") no-repeat center center / cover;
 }
 
 .about_wrap h3 {
@@ -402,6 +397,7 @@ img {
 .about hr {
   margin: 3rem 0;
 }
+
 .skills_wrap {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -543,7 +539,7 @@ img {
     object-fit: cover;
     width: 100%;
   }
- 
+
   .skill {
     text-align: center;
   }
@@ -570,7 +566,7 @@ img {
     bottom: -3%;
     left: 0%;
   }
-  
+
   .hero .left {
     flex-direction: column-reverse;
     gap: 1rem;
@@ -604,7 +600,7 @@ img {
 
   .proj .buttons span {
     padding: 0.35rem;
-    margin: 0rem;
+    margin: 0;
   }
 
   .skills_wrap {
@@ -649,6 +645,7 @@ img {
   .about_wrap .left {
     margin-top: 3rem;
   }
+
   .about_wrap .right {
     position: relative;
     left: 150px;
@@ -659,7 +656,7 @@ img {
     font-size: 72px;
     line-height: 82px;
   }
-  
+
   .about_wrap p {
     font-size: 16px;
     line-height: 24px;
@@ -679,7 +676,7 @@ img {
     width: 100%;
     align-items: center;
   }
-  
+
   .skill-caption {
     align-items: center;
     justify-content: center;
