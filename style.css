@@ -241,7 +241,6 @@ li {
   position: relative;
 }
 
-
 .proj:nth-child(2) {
   background: url("images/proj2.png") no-repeat center center / cover;
 }
@@ -336,6 +335,10 @@ li {
   margin-bottom: 0.75rem;
 }
 
+.about p {
+  font-family: "inter", sans-serif;
+}
+
 .recent .right p {
   font-style: normal;
   font-weight: 400;
@@ -390,10 +393,6 @@ li {
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
-}
-
-.about p {
-  font-family: "inter", sans-serif;
 }
 
 .about hr {
@@ -452,6 +451,7 @@ li {
 .form_wrapper {
   margin-top: 120px;
 }
+
 .form_wrapper h2 {
   color: #172b4d;
 }
@@ -463,12 +463,13 @@ form textarea {
   outline: none;
   border: none;
 }
+
 form input {
   border-bottom: 1px solid #dbd8d7;
 }
 
 form textarea {
-  background-color: #FBF8F7;
+  background-color: #fbf8f7;
   height: 114px;
 }
 
@@ -476,23 +477,24 @@ form input:valid,
 form textarea:valid {
   border-bottom: 1px solid rgba(5, 197, 5, 0.596);
 }
+
 form input:focus,
 form textarea:focus {
   border: 2px solid rgb(240, 95, 119);
 }
+
 form input::placeholder,
 form textarea::placeholder {
   font-size: 1rem;
   color: #979493;
   font-family: inherit;
 }
+
 .form_btn {
   height: 48px;
   width: 131px;
   padding: 12px;
   gap: 10px;
-  width: 124px;
-  height: 48px;
   background: #ff6b00;
   border: 1px solid #ff6b00;
 }
@@ -514,7 +516,6 @@ form textarea::placeholder {
   color: #505f79;
   font-size: 1.5rem;
 }
-
 
 @media (max-width: 530px) {
   .recent h2 {
@@ -630,7 +631,7 @@ form textarea::placeholder {
   }
 
   .about hr {
-    margin:  0 3rem 0;
+    margin: 0 3rem 0;
   }
 
   .skill {
@@ -658,7 +659,6 @@ form textarea::placeholder {
     font-size: 32px;
     line-height: 44px;
     text-align: center;
-
   }
 
   form {
@@ -669,7 +669,7 @@ form textarea::placeholder {
     align-items: center;
     gap: 1rem;
   }
-  
+
   form input,
   form textarea {
     width: 100%;
@@ -681,7 +681,7 @@ form textarea::placeholder {
   form textarea {
     height: 114px;
   }
-  
+
   .form_btn {
     height: 48px;
     width: 131px;
@@ -712,5 +712,4 @@ form textarea::placeholder {
   .input_wrap h5 {
     max-width: 100%;
   }
-
 }
