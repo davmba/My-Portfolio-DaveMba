@@ -57,7 +57,7 @@
       </div>
     </div>
     <section class="recent">
-      <h3 class="container">My Recent Works</h3>
+      <h2 class="container">My Recent Works</h2>
       <div class="recent_wrap container">
         <div class="left">
           <img src="images/img.png" alt="image" />
@@ -203,10 +203,7 @@
             <a class="btn" href="#">Get My Resume</a>
           </div>
         </div>
-
-        <div class="right">
-          <img src="images/aboutimg.png" alt="" />
-        </div>
+        <div class="right"></div>
       </div>
       <hr />
       <div class="skills_wrap container">
@@ -250,34 +247,22 @@
         </div>
       </div>
     </div>
-    <section class="input">
-      <div class="input_wrap container">
-        <div class="left">
-          <h5>
+    <section class="form_wrapper">
+      <div class="">
+          <h2>
             I'm always interested in hearing about new projects, so if you'd
             like to chat please get in touch.
-          </h5>
+          </h2>
         </div>
         <form action="https://formspree.io/f/mnqwkpvo" method="POST">
-          <div class="right">
-            <div class="two">
-              <input type="text" placeholder="Full Name" required/>
-            </div>
-            <div class="one">
-              <input type="text" placeholder="Email address" required/>
-            </div>
-            <div class="text_area">
-              <textarea
-                name="message"
-                placeholder="Hello Mariane. Glad to see you |" required
-              ></textarea>
-            </div>
-            <div class="see">
-              <a class="btn" href="#">Get in touch</a>
-            </div>
-          </div>
+            <input type="text" name="Fullname" maxlength="30" placeholder="Full Name" required/>
+            <input type="email" name="usermail" placeholder="Email address" required/>
+            <textarea
+              name="message" maxlength="500"
+              placeholder="Enter text here" required
+            ></textarea>
+            <button class="form_btn see" type="submit">Get in touch</button>
         </form>
-      </div>
     </section>
     <hr class="footer_rule" />
     <footer class="footer">
