@@ -289,11 +289,17 @@ li {
   max-width: 700px;
 }
 
+.about_wrap .left {
+  padding-left: 4rem;
+}
+
 .about_wrap .right {
   background: url("images/aboutimg.png") no-repeat;
   width: 100%;
-  height: 100vh;
+  height: 60vh;
   position: relative;
+  left: 17rem;
+  top: 1rem;
 }
 
 .recent {
@@ -346,7 +352,9 @@ li {
 }
 
 .about p {
-  font-family: "inter", sans-serif;
+  font-family: 'inter', sans-serif;
+  margin: 1.125rem 0;
+
 }
 
 .recent .right p {
@@ -393,7 +401,6 @@ li {
 
 .about {
   background: #262626;
-  padding: 2rem;
   margin-top: 4rem;
   overflow: hidden;
 }
@@ -414,6 +421,7 @@ li {
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin-top: 3rem;
+  padding-left: 4rem;
 }
 
 .skill h5 {
@@ -459,13 +467,35 @@ li {
 }
 
 .form_wrapper {
-  margin-top: 120px;
+  margin: 150px 0;
+  display: flex;
+  padding: 0 4rem;
 }
+
+/* .form-desc {
+  width: 455px;
+  height: 256px;
+} */
 
 .form_wrapper h2 {
-  color: #172b4d;
+  display: flex;
+  width: 455px;
+  height: 256px;
+  color: #262626;
+  line-height: 52px;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'inter', sans-serif;
 }
 
+form {
+  width: 684px;
+  padding-left: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  
+}
 form input,
 form textarea {
   width: 100%;
