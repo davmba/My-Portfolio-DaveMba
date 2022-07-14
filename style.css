@@ -70,10 +70,28 @@ li {
   padding: 1rem;
 }
 
+.see a {
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 124px;
+  height: 48px;
+  background: #f55800;
+}
+
 .header .nav ul {
   display: flex;
   align-items: center;
   gap: 2.5rem;
+}
+
+.proj .see a {
+  width: 100%;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
 }
 
 .header .nav ul a {
@@ -201,15 +219,6 @@ li {
   margin-top: 2rem;
 }
 
-.see a {
-  align-items: center;
-  padding: 12px;
-  gap: 10px;
-  width: 124px;
-  height: 48px;
-  background: #f55800;
-}
-
 .proj .see {
   position: absolute;
   bottom: -100%;
@@ -217,15 +226,6 @@ li {
   width: 100%;
   left: 0;
   transition: all 0.5s ease-in-out;
-}
-
-.proj .see a {
-  width: 100%;
-  display: inline-block;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  text-align: center;
 }
 
 .proj:hover {
@@ -354,7 +354,6 @@ li {
 .about p {
   font-family: 'inter', sans-serif;
   margin: 1.125rem 0;
-
 }
 
 .recent .right p {
@@ -488,7 +487,7 @@ form {
   width: 684px;
   padding-left: 4rem;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
 }
 
 form input,
@@ -750,4 +749,3 @@ form textarea::placeholder {
     max-width: 100%;
   }
 }
-
