@@ -470,12 +470,8 @@ li {
   margin: 150px 0;
   display: flex;
   padding: 0 4rem;
+  align-items: center;
 }
-
-/* .form-desc {
-  width: 455px;
-  height: 256px;
-} */
 
 .form_wrapper h2 {
   display: flex;
@@ -492,16 +488,16 @@ form {
   width: 684px;
   padding-left: 4rem;
   display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  
+  flex-direction: column;  
 }
+
 form input,
 form textarea {
   width: 100%;
   padding: 1em;
   outline: none;
   border: none;
+  gap: 2rem;
 }
 
 form input {
