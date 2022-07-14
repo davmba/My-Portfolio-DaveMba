@@ -33,6 +33,7 @@ li {
   margin: 0 auto;
   max-width: 1440px;
   width: 100%;
+  padding: 1rem;
 }
 
 .head {
@@ -52,6 +53,11 @@ li {
   font-size: 18px;
   line-height: 20px;
   color: #fff;
+  padding-left: 4rem;
+}
+
+.nav {
+  padding-right: 5rem;
 }
 
 .header {
@@ -68,6 +74,10 @@ li {
   display: flex;
   align-items: center;
   gap: 2.5rem;
+}
+
+.header .nav ul a {
+  color: #fff;
 }
 
 /* Hero */
@@ -688,6 +698,7 @@ form textarea::placeholder {
   }
 }
 
+/* Media Queries */
 @media (max-width: 900px) {
   .recent_wrap,
   .about_wrap,
@@ -713,3 +724,4 @@ form textarea::placeholder {
     max-width: 100%;
   }
 }
+
