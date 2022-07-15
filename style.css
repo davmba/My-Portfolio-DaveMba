@@ -593,6 +593,10 @@ form textarea::placeholder {
     line-height: 44px;
   }
 
+  .see {
+    text-align: center;
+  }
+
   .recent_wrap .see {
     text-align: start;
   }
@@ -611,25 +615,24 @@ form textarea::placeholder {
   
   .proj:nth-child(1) {
     background: url("images/mobile-proj.png") no-repeat center center/cover;
-    
   }
-  
+
   .proj:nth-child(2) {
     background: url("images/mobile-proj.png") no-repeat center center / cover;
   }
-  
+
   .proj:nth-child(3) {
     background: url("images/mobile-proj.png") no-repeat center center / cover;
   }
-  
+
   .proj:nth-child(4) {
     background: url("images/mobile-proj.png") no-repeat center center / cover;
   }
-  
+
   .proj:nth-child(5) {
     background: url("images/mobile-proj.png") no-repeat center center/cover;
   }
-  
+
   .proj:nth-child(6) {
     background: url("images/mobile-proj.png") no-repeat center center / cover;
   }
@@ -652,10 +655,6 @@ form textarea::placeholder {
     display: block;
   }
 
-  .see {
-    text-align: center;
-  }
-
   .proj .see {
     bottom: -22%;
     left: 0;
@@ -664,7 +663,7 @@ form textarea::placeholder {
   .proj .see a {
     bottom: 1rem;
     background: #ff6b00;
-}
+  }
 
   .proj_wrap {
     grid-template-columns: 1fr;
