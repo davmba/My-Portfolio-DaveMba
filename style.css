@@ -569,14 +569,14 @@ form textarea::placeholder {
 
   .header {
     padding-right: 4rem;
-  } 
+  }
 
   .logo h3 {
     padding-left: 1rem;
   }
 
   .recent {
-    padding: 7rem 0.8rem 0;
+    padding: 7rem 0.7rem 0;
   }
 
   .recent h2 {
