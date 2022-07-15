@@ -557,9 +557,14 @@ form textarea::placeholder {
   body {
     align-items: center;
   }
+
   .desktop {
     display: none;
-    
+  }
+
+  .about_wrap h3 {
+    font-size: 72px;
+    line-height: 82px;
   }
 
   .header {
@@ -597,6 +602,11 @@ form textarea::placeholder {
     bottom: 0;
     left: 0%;
     margin: 0;
+  }
+
+  .proj {
+    width: 100%;
+    justify-content: center;
   }
   
   .proj:nth-child(1) {
@@ -654,7 +664,7 @@ form textarea::placeholder {
   .proj .see a {
     bottom: 1rem;
     background: #ff6b00;
-  }
+}
 
   .proj_wrap {
     grid-template-columns: 1fr;
@@ -668,11 +678,7 @@ form textarea::placeholder {
 
   .skills_wrap {
     grid-template-columns: 1fr;
-  }
-
-  .proj {
-    width: 100%;
-    justify-content: center;
+    padding: 1rem;
   }
 
   .hero {
@@ -695,7 +701,7 @@ form textarea::placeholder {
     overflow: hidden;
     width: 100%;
   }
-  
+
   .hero h1 {
     font-size: 56px;
   }
@@ -708,13 +714,9 @@ form textarea::placeholder {
     padding: 7rem 1rem;
   }
 
-  .skills_wrap {
-    padding: 1rem;
-  }
-
   .about {
     background: #262626;
-    padding: 4rem .5rem;
+    padding: 4rem 0.5rem;
     margin-top: 4rem;
   }
 
@@ -726,11 +728,6 @@ form textarea::placeholder {
   .about_wrap .right {
     left: 150px;
     top: -6rem;
-  }
-
-  .about_wrap h3 {
-    font-size: 72px;
-    line-height: 82px;
   }
 
   .about_wrap p {
@@ -759,7 +756,6 @@ form textarea::placeholder {
   }
 
   .form_wrapper {
-    width: 327px;
     padding: 1rem;
     display: flex;
     flex-direction: column;
