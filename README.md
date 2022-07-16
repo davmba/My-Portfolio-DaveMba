@@ -9,7 +9,8 @@
   flexbox and linter was used for this project. 
    #### There are a few reasons for using Flexbox:
    -Flexbox makes it easier to design flexible responsive layout structure without using float or positioning.
-   - Catching syntax errors is very efficient. There is no need to debug simple mistakes like typos - the linter does it 
+   - Catching syntax errors is very efficient. There is no need to debug simple mistakes like typos - the linter does it
+   - We can check html errors by running "npx hint ." command and css errors by running "npx stylelint "**/*.{css,scss}"" command.
 ## Authors
 :bust_in_silhouette: **Author1**
 - GitHub: [@githubhandle](https://github.com/davmba)
