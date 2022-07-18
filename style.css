@@ -166,6 +166,10 @@ li {
   right: -5%;
 }
 
+.mobile {
+  display: none;
+}
+
 .proj_wrap {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -527,12 +531,20 @@ form textarea::placeholder {
 }
 
 .form_btn {
+  color: #fff;
   height: 48px;
   width: 130px;
   padding: 12px;
+  font-weight: 700;
   gap: 10px;
   background: #ff6b00;
   border: 1px solid #ff6b00;
+}
+
+.form_btn:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
 }
 
 .footer_rule {
