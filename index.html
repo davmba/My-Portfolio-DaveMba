@@ -370,12 +370,12 @@
         </div>
         <form action="https://formspree.io/f/mnqwkpvo" method="POST">
           <label for="fullName">Fullname</label>
-          <input type="text" name="Fullname" maxlength="30" placeholder="Full Name" required/>
+          <input type="text" name="Fullname" id="fullname" maxlength="30" placeholder="Full Name" required/>
           <label for="email">Email</label>
-          <input type="email" name="usermail" placeholder="Email address" required/>
+          <input type="email" name="usermail" id="email" placeholder="Email address" required/>
           <label for="textarea">message</label>
           <textarea
-            name="message" maxlength="500"
+            name="message" maxlength="500" id="textarea"
             placeholder="Enter text here" required
           ></textarea>
           <button class="form_btn see" type="submit">Get in touch</button>
