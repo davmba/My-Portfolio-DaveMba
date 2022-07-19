@@ -9,7 +9,6 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css" />
-    
   </head>
   <body>
     <header class="head">
@@ -370,14 +369,17 @@
           </h2>
         </div>
         <form action="https://formspree.io/f/mnqwkpvo" method="POST">
-            <input type="text" name="Fullname" maxlength="30" placeholder="Full Name" required/>
-            <input type="email" name="usermail" placeholder="Email address" required/>
-            <textarea
-              name="message" maxlength="500"
-              placeholder="Enter text here" required
-            ></textarea>
-            <button class="form_btn see" type="submit">Get in touch</button>
-        </form>
+          <label for="full Name"></label>
+          <input type="text" name="Fullname" maxlength="30" placeholder="Full Name" required/>
+          <label for="email"></label>
+          <input type="email" name="usermail" placeholder="Email address" required/>
+          <label for="text area"></label>
+          <textarea
+            name="message" maxlength="500"
+            placeholder="Enter text here" required
+          ></textarea>
+          <button class="form_btn see" type="submit">Get in touch</button>
+      </form>
     </section>
     <hr class="footer_rule" />
     <footer class="footer">
