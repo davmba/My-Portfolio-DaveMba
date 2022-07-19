@@ -548,6 +548,10 @@ form textarea::placeholder {
   border: 1px solid #f55800;
 }
 
+label {
+  display: none;
+}
+
 .footer_rule {
   background: #dfe1e6;
   margin: 3rem 0;
