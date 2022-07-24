@@ -585,7 +585,7 @@ label {
   }
 
   .header {
-    padding-right: 4rem;
+    padding-right: 2rem;
   }
 
   .logo h3 {
@@ -664,11 +664,43 @@ label {
   }
 
   .header .nav ul {
+    width: 100%;
+    display: block;
+    position: relative;
+  }
+
+  .header .nav li {
+    /* padding: 1rem 0; */
+    font-size: 32px;
+    line-height: 44px;
+    font-family: "inter", sans-serif;
+    top: calc(50% - 24px/2);
+    right: 68px;
+    left: 0;
+    height: 64px;
+  }
+
+  .ri-mail-line {
     display: none;
+  }
+
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #3c3a39;
+    mix-blend-mode: normal;
+    box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+    width: 100%;
+    height: 97vh;
+    padding: 5rem 2rem 0;
+    
+    /* transition: .5s; */
   }
 
   .menu {
     display: block;
+    cursor: pointer;
   }
 
   .proj .see {
