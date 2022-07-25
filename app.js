@@ -1,27 +1,22 @@
-// OPEN AND CLOSE MENU
-const sideMenu = document.getElementById('side-menu');
-const navLinks = document.querySelectorAll('nav-link');
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav');
+const xIcon = document.querySelector('.xmark');
+const navLinks = document.querySelectorAll('.nav-link');
 
-function openmenu(){
-    sideMenu.style.right = "0";
-}
-function closemenu(){
-    sideMenu
-    .style.right = "-400px";
-};
-
-// CLOSE MENU ON LINK CLICK
-
-
-navLinks.forEach(link => {
-    link.addEventListener('click', ()=> {
-        document.body.classList.remove('.nav');
-    });
+hamburger.addEventListener('click', () => {
+    hamburger.classList.remove('hamburger');
+    navMenu.classList.add('active');
+    xIcon.classList.add('nav-open');
 });
 
-
-// $( document ).ready(function() {
-//     $('.nav-list').click(function(){
-//       $('.nav').removeClass('show');
-//  });  
-//   }); 
+xIcon.addEventListener('click', () => {
+    xIcon.classList.remove('nav-open');
+    navMenu.classList.remove('active');
+    hamburger.classList.add('hamburger');
+});
+  
+navLinks.forEach((n) => n.addEventListener('click', () => {
+    navMenu.classList.remove('active');
+    xIcon.classList.remove('nav-open');
+    hamburger.classList.add('hamburger');
+}));
