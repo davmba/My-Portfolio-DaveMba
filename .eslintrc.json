@@ -10,7 +10,8 @@
       "sourceType": "module"
     },
     "extends": ["airbnb-base"],
-    "rules": {
+    "rules": { 
+      "indent": "off",
       "no-shadow": "off",
       "no-param-reassign": "off",
       "eol-last": "off",
@@ -23,4 +24,3 @@
       "build/"
     ]
   }
-  
