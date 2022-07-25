@@ -4,6 +4,7 @@
 ## Built With
 - HTML 
 - CSS
+- Javascript
 ## Getting Started
    ### Usage
   Flexbox, Grid and linter was used for this project. 
