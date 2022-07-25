@@ -2,7 +2,8 @@
     "env": {
       "browser": true,
       "es6": true,
-      "jest": true
+      "jest": true,
+      "skipBlankLines": true,
     },
     "parser": "babel-eslint",
     "parserOptions": {
