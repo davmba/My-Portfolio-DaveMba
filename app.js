@@ -9,7 +9,7 @@ hamburger.addEventListener('click', () => {
   xIcon.classList.add('nav-open');
 });
 
-xIcon.addEventListener('click', () =>{
+xIcon.addEventListener('click', () => {
   xIcon.classList.remove('nav-open');
   navMenu.classList.remove('active');
   hamburger.classList.add('hamburger');
