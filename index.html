@@ -9,30 +9,31 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
   </head>
   <body>
     <header class="head">
       <div class="header container">
         <div class="logo">
-          <h3>Dave Mba</h3>
+          <h3>Dave Mba.</h3>
         </div>
         <div class="nav">
           <nav>
+            <i class="fa-solid fa-xmark xmark"></i>
             <ul>
-              <li><a href="">Portfolio</a></li>
-              <li><a href="">About</a></li>
-              <li><a href=""> Contact</a></li>
+              <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+              <li><hr></li>
+              <li><a href="#about-me" class="nav-link">About</a></li>
+              <li><hr></li>
+              <li><a href="#contact-us" class="nav-link"> Contact</a></li>
+              <li><hr></li>
               <li><i class="ri-mail-line"></i></li>
             </ul>
           </nav>
         </div>
-
-        <div class="menu">
-          <i class="ri-menu-fill"></i>
-        </div>
+        <i class="fa-solid fa-bars hamburger"></i>
       </div>
     </header>
-
     <div class="hero">
       <div class="hero_wrap container">
         <div class="left">
@@ -56,14 +57,14 @@
         <div class="right"></div>
       </div>
     </div>
-    <section class="recent">
+    <section class="recent" id="portfolio">
       <h2 class="container">My Recent Works</h2>
       <div class="recent_wrap container">
         <div class="left">
           <img src="images/img.png" alt="Snapshot of the project" />
         </div>
         <div class="right">
-          <h3>Multi-Post Stories</h3>
+          <h3>Multi-Post Stories.</h3>
           <p>
             A daily selection of privately personalized reads; no accounts or
             sign-ups required. has been the industry's standard dummy text ever
@@ -303,7 +304,7 @@
       </div>
     </section>
     <!-- About -->
-    <section class="about">
+    <section class="about" id="about-me">
       <div class="about_wrap container">
         <div class="left">
           <h3>About me</h3>
@@ -361,7 +362,7 @@
         </div>
       </div>
     </section>
-    <section class="form_wrapper">
+    <section class="form_wrapper" id="contact-us">
        <div class="form_desc">
           <h2>
             I'm always interested in hearing about new projects, so if you'd

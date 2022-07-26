@@ -22,11 +22,15 @@ li {
   list-style: none;
 }
 
-/* img {
-  width: 100%;
-} */
+.nav hr {
+  display: none;
+}
 
-.menu {
+.hamburger {
+  display: none;
+}
+
+.xmark {
   display: none;
 }
 
@@ -41,7 +45,7 @@ li {
   color: #fff;
   position: fixed;
   overflow: hidden;
-  z-index: 9999;
+  z-index: 1000;
   width: 100%;
   top: 0;
   left: 0;
@@ -83,7 +87,7 @@ li {
 .header .nav ul {
   display: flex;
   align-items: center;
-  gap: 2.5rem;
+  gap: 2.51rem;
 }
 
 .proj .see a {
@@ -585,7 +589,7 @@ label {
   }
 
   .header {
-    padding-right: 4rem;
+    padding-right: 2rem;
   }
 
   .logo h3 {
@@ -664,10 +668,70 @@ label {
   }
 
   .header .nav ul {
+    width: 100%;
+    display: block;
+    position: relative;
+  }
+
+  .header .nav li {
+    color: #fff5e1;
+    font-size: 32px;
+    line-height: 44px;
+    font-family: "inter", sans-serif;
+    top: calc(50% - 24px / 2);
+    right: 0;
+    left: 0;
+    height: 64px;
+    padding-left: 10px;
+  }
+
+  .ri-mail-line {
     display: none;
   }
 
-  .menu {
+  .nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background: #3c3a39;
+    mix-blend-mode: normal;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    width: 100%;
+    height: 100vh;
+    padding: 5rem 2rem 0;
+    transition: 0.5s ease-in-out;
+    z-index: 1000;
+  }
+
+  .nav.active {
+    right: 0;
+  }
+
+  .nav hr {
+    display: block;
+    position: absolute;
+    width: 100%;
+    margin-top: -12px;
+    height: 1px;
+    color: #6f6c6b;
+    left: 0;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .xmark {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
+    font-size: 24px;
+  }
+
+  .xmark.nav-open {
     display: block;
   }
 
