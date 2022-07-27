@@ -20,3 +20,55 @@ navLinks.forEach((n) => n.addEventListener('click', () => {
   xIcon.classList.remove('nav-open');
   hamburger.classList.add('hamburger');
 }));
+
+const showItemInfo = [
+  {
+    title: 'Multi-Post Stories',
+    image: 'images/proj.png',
+    desc: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    technologies: ['css', 'html', 'bootstrap', 'Ruby'],
+    liveVersion: 'https://davmba.github.io/My-Portfolio-DaveMba/',
+    liveSource: 'https://github.com/davmba/My-Portfolio-DaveMba.git',
+  },
+  {
+    title: 'Multi-Post Stories',
+    image: 'images/proj2.png',
+    desc: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    technologies: ['css', 'html', 'bootstrap', 'Ruby'],
+    liveVersion: 'https://davmba.github.io/My-Portfolio-DaveMba/',
+    liveSource: 'https://github.com/davmba/My-Portfolio-DaveMba.git',
+  },
+  {
+    title: 'Multi-Post Stories',
+    image: 'images/proj3.png',
+    desc: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    technologies: ['css', 'html', 'bootstrap', 'Ruby'],
+    liveVersion: 'https://davmba.github.io/My-Portfolio-DaveMba/',
+    liveSource: 'https://github.com/davmba/My-Portfolio-DaveMba.git',
+  },
+  {
+    title: 'Multi-Post Stories',
+    image: 'images/proj.png',
+    desc: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    technologies: ['css', 'html', 'bootstrap', 'Ruby'],
+    liveVersion: 'https://davmba.github.io/My-Portfolio-DaveMba/',
+    liveSource: 'https://github.com/davmba/My-Portfolio-DaveMba.git',
+  },
+  {
+    title: 'Multi-Post Stories',
+    image: 'images/proj2.png',
+    desc: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    technologies: ['css', 'html', 'bootstrap', 'Ruby'],
+    liveVersion: 'https://davmba.github.io/My-Portfolio-DaveMba/',
+    liveSource: 'https://github.com/davmba/My-Portfolio-DaveMba.git',
+  },
+  {
+    title: 'Multi-Post Stories',
+    image: 'images/proj3.png',
+    desc: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    technologies: ['css', 'html', 'bootstrap', 'Ruby'],
+    liveVersion: 'https://davmba.github.io/My-Portfolio-DaveMba/',
+    liveSource: 'https://github.com/davmba/My-Portfolio-DaveMba.git',
+  },
+ 
+];
