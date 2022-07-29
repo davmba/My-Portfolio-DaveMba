@@ -28,3 +28,4 @@ Give a :star:️ if you like this project!
 - Inspiration
 ## :memo: License
 This project is [MIT](./MIT.md) licensed.
+

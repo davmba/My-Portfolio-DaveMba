@@ -170,9 +170,6 @@ li {
   right: -5%;
 }
 
-.mobile {
-  display: none;
-}
 
 .proj_wrap {
   display: grid;
@@ -229,7 +226,7 @@ li {
 }
 
 .proj .see {
-  position: absolute;
+  /* position: absolute; */
   bottom: -100%;
   height: 30px;
   width: 100%;
@@ -244,7 +241,7 @@ li {
 
 .proj:hover .proj_wrapp {
   bottom: 0;
-  top: -90%;
+  top: 1%;
   cursor: pointer;
   transition: all 5s ease-in-out;
 }
@@ -579,10 +576,6 @@ label {
     align-items: center;
   }
 
-  .desktop {
-    display: none;
-  }
-
   .about_wrap h3 {
     font-size: 72px;
     line-height: 82px;
@@ -618,7 +611,7 @@ label {
   }
 
   .recent_wrap .see {
-    text-align: start;
+    text-align: center;
   }
 
   .recent h2::before {
@@ -741,7 +734,7 @@ label {
   }
 
   .proj .see a {
-    bottom: 1rem;
+    bottom: -1.2em;
     background: #ff6b00;
   }
 
