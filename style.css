@@ -170,7 +170,6 @@ li {
   right: -5%;
 }
 
-
 .proj_wrap {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
