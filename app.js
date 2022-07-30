@@ -99,7 +99,7 @@ const showItemInfo = [
     },
   },
 ];
-const itemCont = document.querySelector('proj_wrap');
+const itemCont = document.querySelector('proj_wrap')
 function showCard() {
   showItemInfo.forEach((data) => {
     itemCont.innerHTML += `<div class="proj">
@@ -115,7 +115,7 @@ function showCard() {
         <a class="btn" href="#">See Project</a>
       </div>
     </div>
-  </div>`;
+  </div>`
   });
 }
 showCard();
