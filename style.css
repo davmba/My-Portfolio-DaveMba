@@ -865,7 +865,7 @@ label {
   form input,
   form textarea {
     width: 100%;
-    padding: 1em;
+    padding: 1.1em;
     outline: none;
     border: none;
   }
