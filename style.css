@@ -552,8 +552,20 @@ form textarea::placeholder {
   border: 1px solid #f55800;
 }
 
-label {
+.label {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.label .invalid-msg {
+  font-size: 14px;
+  color: rgba(255, 0, 0, 0.877);
+  font-style: italic;
   display: none;
+}
+
+.invalid-msg.incorrect {
+  display: block;
 }
 
 .footer_rule {
