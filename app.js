@@ -25,17 +25,13 @@ const form = document.querySelector('form');
 const email = document.getElementById('email');
 const error = document.getElementById('error-msg');
 
-const fullName = document.querySelector('#name');
-const txt = document.querySelector('textarea');
-
 form.addEventListener('submit', (e) => {
   const val = email.value;
-  const store = {};
-  
+
   if (val !== val.toLowerCase()) {
     error.classList.add('incorrect');
     e.preventDefault();
-  } else { 
+  } else {
     error.classList.remove('incorrect');
     form.submit();
   }
