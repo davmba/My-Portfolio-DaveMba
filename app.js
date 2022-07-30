@@ -28,7 +28,6 @@ const error = document.getElementById('error-msg');
 const fullName = document.querySelector('#name');
 const txt = document.querySelector('textarea');
 
-
 form.addEventListener('submit', (e) => {
   const val = email.value;
 
