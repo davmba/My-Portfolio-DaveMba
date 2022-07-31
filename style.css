@@ -570,6 +570,112 @@ label {
   font-size: 1.5rem;
 }
 
+/* MODAL */
+.modal {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.507);
+}
+.modal.blur {
+  display: flex;
+}
+.modal-wrap {
+  position: relative;
+  width: 85%;
+  background: white;
+  box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.507);
+  padding: 1em 1em 2em;
+}
+
+.modal-con {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.modal-header {
+  margin-bottom: 1.5rem;
+}
+
+.modal-header .xmark {
+  position: absolute;
+  display: block;
+  top: 3%;
+  right: 5%;
+  font-size: 1.5rem;
+  border: none;
+  color: black;
+}
+
+.modal-header h2 {
+  color: black;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.modal-header .buttons span {
+  border: 1px solid rgba(0, 0, 0, 0.658);
+  color: rgba(0, 0, 0, 0.555);
+  padding: 0.2em 1em;
+  font-weight: 400;
+}
+
+.modal-con img {
+  width: 100%;
+  height: 200px;
+}
+.modal-text {
+  color: rgba(0, 0, 0, 0.822);
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.modal-btn .btn {
+  padding: 0.7em 3em;
+  margin-top: 1.5rem;
+}
+@media (min-width: 768px) {
+  .modal-wrap {
+    padding: 1em 2em 3em;
+    max-width: 968px;
+  }
+  .modal-con {
+    flex-direction: row;
+    align-items: center;
+  }
+
+
+  .modal-btn .btn {
+    padding: 0.5em 1em;
+    margin-top: 1.5rem;
+  }
+
+  .modal-con img {
+    height: 320px;
+    width: 550px;
+  }
+
+  .modal-text {
+    max-width: 400px;
+    font-size: 1rem;
+    margin-bottom: 4rem;
+  }
+
+  .modal-desc {
+    align-self: flex-start;
+  
+  }
+
+
+
+}
 @media (max-width: 530px) {
   body {
     align-items: center;
